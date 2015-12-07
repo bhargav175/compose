@@ -13,3 +13,4 @@ Takes a lot functions and returns one composite function . compose(f,g,h...) => 
       }
     }
     console.log(compose(f1,f2,f3)(3));
+    //f1(f2(f3(x))) = f1(f2(f3(3))) = f1(f2(3000)) = f1(9000000) = 9000001
