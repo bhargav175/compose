@@ -1,5 +1,5 @@
 # compose
-Takes a lot functions and returns one composite function . compose(f,g,h...) =>  f(g(h...))
+Takes a multiple functions and returns one composite function . compose(f,g,h...) =>  f(g(h...))
 
 
     var f1 = a => a+1, f2 = a => a*a ,f3 = a  => a*1000;
